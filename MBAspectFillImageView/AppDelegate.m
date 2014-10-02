@@ -7,20 +7,25 @@
 //
 
 #import "AppDelegate.h"
+#import "MBImageView.h"
 
 @interface AppDelegate ()
 
 @property (weak) IBOutlet NSWindow *window;
+
+@property (weak) IBOutlet MBImageView *imageView;
+
 @end
 
 @implementation AppDelegate
 
 - (void)applicationDidFinishLaunching:(NSNotification *)aNotification {
-    // Insert code here to initialize your application
+    NSImage *image = [NSImage imageNamed:@"audi-r8"];
+    self.imageView.image = image;
 }
 
 - (void)applicationWillTerminate:(NSNotification *)aNotification {
-    // Insert code here to tear down your application
+    // ...
 }
 
 @end

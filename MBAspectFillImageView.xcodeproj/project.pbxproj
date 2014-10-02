@@ -12,6 +12,7 @@
 		1C1D8F1319DDE4310068F68C /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 1C1D8F1219DDE4310068F68C /* Images.xcassets */; };
 		1C1D8F1619DDE4310068F68C /* MainMenu.xib in Resources */ = {isa = PBXBuildFile; fileRef = 1C1D8F1419DDE4310068F68C /* MainMenu.xib */; };
 		1C1D8F2219DDE4310068F68C /* MBAspectFillImageViewTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 1C1D8F2119DDE4310068F68C /* MBAspectFillImageViewTests.m */; };
+		1C1D8F3119DDE4CD0068F68C /* MBImageView.m in Sources */ = {isa = PBXBuildFile; fileRef = 1C1D8F3019DDE4CD0068F68C /* MBImageView.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -35,6 +36,8 @@
 		1C1D8F1B19DDE4310068F68C /* MBAspectFillImageViewTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = MBAspectFillImageViewTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		1C1D8F2019DDE4310068F68C /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		1C1D8F2119DDE4310068F68C /* MBAspectFillImageViewTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = MBAspectFillImageViewTests.m; sourceTree = "<group>"; };
+		1C1D8F2F19DDE4CD0068F68C /* MBImageView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MBImageView.h; sourceTree = "<group>"; };
+		1C1D8F3019DDE4CD0068F68C /* MBImageView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MBImageView.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -78,8 +81,9 @@
 			children = (
 				1C1D8F0D19DDE4310068F68C /* AppDelegate.h */,
 				1C1D8F0E19DDE4310068F68C /* AppDelegate.m */,
-				1C1D8F1219DDE4310068F68C /* Images.xcassets */,
+				1C1D8F2E19DDE4CD0068F68C /* MBImageView */,
 				1C1D8F1419DDE4310068F68C /* MainMenu.xib */,
+				1C1D8F1219DDE4310068F68C /* Images.xcassets */,
 				1C1D8F0B19DDE4310068F68C /* Supporting Files */,
 			);
 			path = MBAspectFillImageView;
@@ -109,6 +113,15 @@
 				1C1D8F2019DDE4310068F68C /* Info.plist */,
 			);
 			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		1C1D8F2E19DDE4CD0068F68C /* MBImageView */ = {
+			isa = PBXGroup;
+			children = (
+				1C1D8F2F19DDE4CD0068F68C /* MBImageView.h */,
+				1C1D8F3019DDE4CD0068F68C /* MBImageView.m */,
+			);
+			path = MBImageView;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -210,6 +223,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				1C1D8F3119DDE4CD0068F68C /* MBImageView.m in Sources */,
 				1C1D8F1119DDE4310068F68C /* main.m in Sources */,
 				1C1D8F0F19DDE4310068F68C /* AppDelegate.m in Sources */,
 			);
